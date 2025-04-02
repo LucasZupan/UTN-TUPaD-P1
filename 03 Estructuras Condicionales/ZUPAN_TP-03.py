@@ -120,7 +120,7 @@ print(frase)
 # ● Mayor o igual que 6 y menor que 7: "Muy Fuerte" (puede causar daños significativos).
 # ● Mayor o igual que 7: "Extremo" (puede causar graves daños a gran escala).
 
-pmagnitud = float(input("Ingrese la magnitud del terremoto en la escala de Richter: "))
+magnitud = float(input("Ingrese la magnitud del terremoto en la escala de Richter: "))
 
 # Clasificar según la magnitud
 if magnitud < 3:
